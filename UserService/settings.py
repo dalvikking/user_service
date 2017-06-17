@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'UserService.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'devdb',
-        'USER': 'devdb',
-        'PASSWORD': 'dalvik2108',
-        'HOST': 'devdb.cctpye5v4ef4.us-east-2.rds.amazonaws.com',
+        'NAME': 'test',
+        'USER': 'test',
+        'PASSWORD': 'test',
+        'HOST': 'test',
         'PORT':'5432'
     }
 }
